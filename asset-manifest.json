@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nc-portfolio/static/css/main.4df487a1.css",
+    "main.js": "/nc-portfolio/static/js/main.83ff33ef.js",
+    "static/media/family.jpg": "/nc-portfolio/static/media/family.c909e4061254a676f7ff.jpg",
+    "static/media/todo.jpg": "/nc-portfolio/static/media/todo.dbb33354cf1092ad5a7d.jpg",
+    "static/media/logo.png": "/nc-portfolio/static/media/logo.caea11fac7c0d545e2a3.png",
+    "index.html": "/nc-portfolio/index.html",
+    "main.4df487a1.css.map": "/nc-portfolio/static/css/main.4df487a1.css.map",
+    "main.83ff33ef.js.map": "/nc-portfolio/static/js/main.83ff33ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4df487a1.css",
+    "static/js/main.83ff33ef.js"
+  ]
+}
