@@ -20,7 +20,7 @@ const Work = () => {
           >
             {/* hover effects */}
             <div className="">
-              <span className="text-3xl font-black text-black tracking-wider">
+              <span className="text-3xl border-b-4 border-[#fdbf44] font-black text-black tracking-wider">
                 Family Sharing App
               </span>
               <div className="pt-8 text-center">
