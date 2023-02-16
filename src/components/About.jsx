@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-[80%]">
-        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-4 pl-4 mt-10">
+        <div className="max-w-[1000px] w-full flex justify-center">
+          <div className="sm:text-right pb-8">
             <p className="text-4xl font-bold inline border-b-4 border-[#fdbf44]">
               About
             </p>
