@@ -12,7 +12,7 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
               alt="React icon"
@@ -20,7 +20,7 @@ const Skills = () => {
             />
             <p className="my-4">ReactJS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
               alt="Mongo icon"
@@ -28,7 +28,7 @@ const Skills = () => {
             />
             <p className="my-4">MongoDB</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
               alt="Express icon"
@@ -36,7 +36,7 @@ const Skills = () => {
             />
             <p className="my-4">ExpressJS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg"
               alt="Node icon"
@@ -44,7 +44,7 @@ const Skills = () => {
             />
             <p className="my-4">NodeJS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
               alt="tailwind icon"
@@ -52,7 +52,7 @@ const Skills = () => {
             />
             <p className="my-4">Tailwind CSS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
               alt="JavaScript icon"
@@ -60,7 +60,7 @@ const Skills = () => {
             />
             <p className="my-4">JavaScript</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
               alt="Postgres icon"
@@ -68,7 +68,7 @@ const Skills = () => {
             />
             <p className="my-4">PostgreSQL</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#040c16] bg-gray-400 text-black rounded-lg">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
               alt="HTML5 icon"
