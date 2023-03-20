@@ -2,44 +2,47 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen flex justify-center items-center bg-[#0a192f] text-gray-300">
+    <div
+      name="about"
+      className="w-full h-screen flex justify-center items-center bg-[#fcfcfc]"
+    >
       <div className="flex flex-col justify-center items-center w-full">
         <div className="max-w-[1000px] w-full flex justify-center">
           <div className="sm:text-right pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-[#fdbf44]">
+            <p
+              id="page-title"
+              className="text-4xl font-bold inline border-b-4 px-10 border-[#fdbf44]"
+            >
               About
             </p>
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] text-xs md:text-xl w-full h-full grid gap-8 px-4">
+        <div className="max-w-[1000px] text-sm md:text-xl w-full h-full grid gap-8 px-4">
           <div>
             <p>
-              I am a Full Stack Sofware Engineer with experience using
-              technologies such as React.js for front-end user interfaces,
-              Node.js for my runtime environment, Express.js for managing my
-              servers and routes, and MongoDB or PostgreSQL for my database,
-              depending on whether or not the project would benefit more from
-              using either a relational or non-relational database.
-              <br />
-              <br />
-              I have
-              self-taught for over two years so far, and graduated from
-              Devmountain's Web Development Program. I have a passion for
-              working in education, finances, time-management, and
-              mental/physical health.
-              <br />
-              <br />
-              I enjoy bettering my skills in the
-              technologies I use day-to-day, on top of learning new technologies
-              that make new projects cleaner and more efficient. I am open to
-              taking on any project given to me. I love the challenge of
-              building beautiful, high quality products that the user can
-              navigate with ease by using a customer-first mentality. In the
-              end, the product I build is not for me, it is for the user. The
-              user is the top priority.
-              <br />
-              <br />
+              Before I made the leap in to Web Development, I was a member of
+              the International Brotherhood of Electrical Workers Union.
+            </p>
+            <br />
+            <p>
+              Once I realized my passion was building websites and applications,
+              I began learning JavaScript, HTML and CSS. After a year and a half
+              of self-learning, I began a four-month Web Development program at
+              DevMountain. I graduated in February of 2023, and am now looking
+              for the right opportunity to let my creative passion shine.
+            </p>
+            <br />
+            <p>
+              During my studies at DevMountain, I learned how to proficiently
+              use React.js, Node.js, Express.js, and PostgreSQL to create full
+              Stack web applications and sites. With my new skillset, I was able
+              to create applications that I only dreamed of making.
+            </p>
+            <br />
+            <p>
+              I am now learning Next.js and Typescript while I continue to
+              relentlessly pursue my career in Web Development.
             </p>
           </div>
         </div>
