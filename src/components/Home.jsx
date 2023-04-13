@@ -19,17 +19,29 @@ const Home = () => {
           <div className="flex justify-center">
             <ul className="flex pt-6 gap-10">
               <li className="rounded-full shadow-lg p-6 shadow-gray-700 cursor-pointer hover:scale-110 ease-in duration-300">
-                <a href="https://www.linkedin.com/in/noahcaindev/">
+                <a
+                  href="https://www.linkedin.com/in/noahcaindev/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <RiLinkedinFill className=" " size={40} />
                 </a>
               </li>
               <li className="rounded-full shadow-lg p-6 shadow-gray-700 cursor-pointer hover:scale-110 ease-in duration-300">
-                <a href="https://github.com/NCain24">
+                <a
+                  href="https://github.com/NCain24"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <FaGithub size={40} />
                 </a>
               </li>
               <li className="rounded-full shadow-lg p-6 shadow-gray-700 cursor-pointer hover:scale-110 ease-in duration-300">
-                <a href="https://docs.google.com/document/d/1wpVjl0Q_PBBcrzKu40kNonTLlkXQ7_EFVEAaY8c4H9M/edit?usp=sharing">
+                <a
+                  href="https://docs.google.com/document/d/1wpVjl0Q_PBBcrzKu40kNonTLlkXQ7_EFVEAaY8c4H9M/edit?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <BsFillPersonLinesFill size={40} />
                 </a>
               </li>
