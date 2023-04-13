@@ -1,5 +1,6 @@
 import React from 'react';
 import familyImg from '../assets/family.jpg';
+import weatherImg from '../assets/weather.png';
 
 const Work = () => {
   return (
@@ -13,29 +14,67 @@ const Work = () => {
             Work
           </p>
         </div>
-        {/* container */}
-        <div className="grid sm:grid-cols-1 gap-4">
-          {/* grid item */}
+        <div className="grid sm:grid-cols-2 gap-4 pb-4 ">
           <div
             style={{ backgroundImage: `url(${familyImg})` }}
             className="shadow-2xl group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* hover effects */}
-            <div className="">
+            <div>
               <span
                 id="page-title"
-                className="text-3xl rounded-xl font-bold px-6 bg-black/50 text-white tracking-widest"
+                className="text-3xl rounded-xl font-bold px-6 bg-black/50 text-white tracking-wide"
               >
                 Family Connect
               </span>
               <div className="pt-8 text-center">
-                <a href="https://youtu.be/9LZ7fv56Tsg">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#fdbf44]">
+                <a
+                  href="https://youtu.be/9LZ7fv56Tsg"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <button className="text-center rounded-lg border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#fdbf44]">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/NCain24/Family-Sharing-App">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#fdbf44]">
+                <a
+                  href="https://github.com/NCain24/Family-Sharing-App"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <button className="text-center rounded-lg border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#fdbf44]">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${weatherImg})` }}
+            className="shadow-2xl group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div>
+              <span
+                id="page-title"
+                className="text-3xl rounded-xl font-bold px-6 bg-black/50 text-white tracking-wide"
+              >
+                How's The Weather?
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://ncain24.github.io/hows-the-weather/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <button className="text-center rounded-lg border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#fdbf44]">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/NCain24/hows-the-weather"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <button className="text-center rounded-lg border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#fdbf44]">
                     Code
                   </button>
                 </a>

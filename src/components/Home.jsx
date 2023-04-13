@@ -5,7 +5,6 @@ import { Link } from 'react-scroll';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Home = () => {
-
   return (
     <div>
       <div name="home" className="w-full h-screen  bg-[#fcfcfc]">
