@@ -8,7 +8,7 @@ const Skills = () => {
         <div className="flex justify-center">
           <p
             id="page-title"
-            className="text-4xl font-bold inline border-b-4 px-10 border-[#fdbf44]"
+            className="text-4xl text-[#8892b0] font-bold inline border-b-4 px-10 border-[#fdbf44]"
           >
             Skills
           </p>

@@ -14,14 +14,12 @@ const Contact = () => {
         <div className="pb-4 flex flex-col justify-center items-center">
           <p
             id="page-title"
-            className="text-4xl font-bold inline border-b-4 px-10 border-[#fdbf44]"
+            className="text-4xl text-[#8892b0] font-bold inline border-b-4 px-10 border-[#fdbf44]"
           >
             Contact
           </p>
-          
         </div>
-        <div>
-        </div>
+        <div></div>
         <input
           className="bg-[#dad9d9] p-2 mb-4 rounded"
           type="text"
@@ -35,7 +33,7 @@ const Contact = () => {
           rows="6"
           placeholder="Message"
         ></textarea>
-        <button className=" border-2 font-bold bg-[#fdbf44] hover:bg-[#fcd382] ease-in duration-300 px-8 py-3 my-4 mx-auto flex items-center rounded-xl">
+        <button className=" border-2 font-bold text-[#8892b0] bg-[#fdbf44] hover:bg-[#fcd382] ease-in duration-300 px-8 py-3 my-4 mx-auto flex items-center rounded-xl">
           Send Message
         </button>
       </form>

@@ -9,7 +9,7 @@ const Work = () => {
         <div className="pb-8 flex justify-center">
           <p
             id="page-title"
-            className="text-4xl font-bold inline border-b-4 px-10 border-[#fdbf44]"
+            className="text-4xl font-bold inline text-[#8892b0] border-b-4 px-10 border-[#fdbf44]"
           >
             Work
           </p>
@@ -22,7 +22,7 @@ const Work = () => {
             <div>
               <span
                 id="page-title"
-                className="text-3xl rounded-xl font-bold px-6 bg-black/50 text-white tracking-wide"
+                className="text-3xl rounded-xl font-bold px-6 bg-black/70 text-white tracking-wide"
               >
                 Family Connect
               </span>
@@ -32,7 +32,7 @@ const Work = () => {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <button className="text-center rounded-lg border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#fdbf44]">
+                  <button className="text-center rounded-lg border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-[#8892b0]">
                     Demo
                   </button>
                 </a>
@@ -41,7 +41,7 @@ const Work = () => {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <button className="text-center rounded-lg border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#fdbf44]">
+                  <button className="text-center rounded-lg border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-[#8892b0]">
                     Code
                   </button>
                 </a>
@@ -55,7 +55,7 @@ const Work = () => {
             <div>
               <span
                 id="page-title"
-                className="text-3xl rounded-xl font-bold px-6 bg-black/50 text-white tracking-wide"
+                className="text-3xl rounded-xl font-bold px-6 bg-black/70 text-white tracking-wide"
               >
                 How's The Weather?
               </span>
@@ -65,7 +65,7 @@ const Work = () => {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <button className="text-center rounded-lg border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#fdbf44]">
+                  <button className="text-center rounded-lg border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-[#8892b0]">
                     Demo
                   </button>
                 </a>
@@ -74,7 +74,7 @@ const Work = () => {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <button className="text-center rounded-lg border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#fdbf44]">
+                  <button className="text-center rounded-lg border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-[#8892b0]">
                     Code
                   </button>
                 </a>
