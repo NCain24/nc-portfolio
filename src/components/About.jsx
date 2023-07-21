@@ -11,38 +11,61 @@ const About = () => {
           <div className="sm:text-right pb-8">
             <p
               id="page-title"
-              className="text-4xl text-[#8892b0] font-bold inline border-b-4 px-10 border-[#fdbf44]"
+              className="text-4xl font-bold inline border-b-4 px-10 border-[#fdbf44]"
             >
               About
             </p>
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] text-sm md:text-xl w-full h-full grid gap-8 px-4">
+        <div className="max-w-[1000px] text-xs sm:text-sm w-full h-full grid gap-8 px-4 text-center">
           <div>
             <p>
-              Before I made the leap in to Web Development, I was a member of
-              the International Brotherhood of Electrical Workers Union.
+              Hello there! I'm thrilled to share my unique journey into the
+              world of web development with you. Before I discovered my true
+              passion for building websites and applications, I was a proud
+              member of the International Brotherhood of Electrical Workers
+              Union. However, life had something else in store for me, and my
+              interest in technology and coding began to take center stage. It
+              didn't take long for me to realize that web development was where
+              I wanted to make my mark. Fueled by determination and a thirst for
+              knowledge, I embarked on a self-learning journey, diving headfirst
+              into the realms of JavaScript, HTML, and CSS.
             </p>
             <br />
             <p>
-              Once I realized my passion was building websites and applications,
-              I began learning JavaScript, HTML and CSS. After a year and a half
-              of self-learning, I began a four-month Web Development program at
-              DevMountain. I graduated in February of 2023, and am now looking
-              for the right opportunity to let my creative passion shine.
+              Over the course of a year and a half, I honed my skills and
+              developed a deep understanding of web development principles. My
+              insatiable curiosity and passion led me to take the next big step
+              in my journey. I enrolled in a four-month intensive Web
+              Development program at Devmountain, eager to expand my knowledge
+              and learn from seasoned professionals in the industry. In February
+              of 2023, I proudly graduated from Devmountain, armed with the
+              expertise in React.js, Node.js, Express.js, and PostgreSQL,
+              enabling me to create full-stack web applications and sites that I
+              had only dreamt of before. It was truly an incredible experience
+              to see my visions turn into reality through code. My quest for
+              growth doesn't end there.
             </p>
             <br />
             <p>
-              During my studies at DevMountain, I learned how to proficiently
-              use React.js, Node.js, Express.js, and PostgreSQL to create full
-              Stack web applications and sites. With my new skillset, I was able
-              to create applications that I only dreamed of making.
+              I believe that the world of web development is an ever-evolving
+              landscape, and I'm determined to stay ahead of the curve.
+              Currently, I'm diving into the depths of Next.js and Typescript,
+              further enhancing my skillset to create even more innovative and
+              dynamic applications. For me, web development is not just a
+              career; it's a creative outlet that allows me to weave my
+              imagination into the fabric of the digital world. I'm now on the
+              lookout for the perfect opportunity to channel my passion, skills,
+              and dedication into a dynamic and forward-thinking team.
             </p>
             <br />
             <p>
-              I am now learning Next.js and Typescript while I continue to
-              relentlessly pursue my career in Web Development.
+              If you're seeking a web developer who combines a strong foundation
+              in coding with an unyielding drive to excel, then I would love to
+              connect with you. Together, we can build something extraordinary
+              and make a lasting impact in the digital realm. Let's bring ideas
+              to life and revolutionize the web, one line of code at a time.
             </p>
           </div>
         </div>
