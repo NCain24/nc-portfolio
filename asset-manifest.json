@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/nc-portfolio/static/css/main.07d8f58a.css",
-    "main.js": "/nc-portfolio/static/js/main.6b373e10.js",
+    "main.js": "/nc-portfolio/static/js/main.bd4bf684.js",
     "static/media/weather.png": "/nc-portfolio/static/media/weather.c8b32e629bb49bba8a76.png",
     "static/media/family.jpg": "/nc-portfolio/static/media/family.c909e4061254a676f7ff.jpg",
+    "static/media/musicapp.png": "/nc-portfolio/static/media/musicapp.a82e6ef1efcdece04d3b.png",
     "index.html": "/nc-portfolio/index.html",
     "main.07d8f58a.css.map": "/nc-portfolio/static/css/main.07d8f58a.css.map",
-    "main.6b373e10.js.map": "/nc-portfolio/static/js/main.6b373e10.js.map"
+    "main.bd4bf684.js.map": "/nc-portfolio/static/js/main.bd4bf684.js.map"
   },
   "entrypoints": [
     "static/css/main.07d8f58a.css",
-    "static/js/main.6b373e10.js"
+    "static/js/main.bd4bf684.js"
   ]
 }
