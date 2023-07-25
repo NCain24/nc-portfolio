@@ -82,39 +82,6 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${weatherImg})` }}
-            className="shadow-2xl group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <div>
-              <span
-                id="page-title"
-                className="text-3xl rounded-full font-bold px-6 bg-black/70 text-white tracking-wide py-6"
-              >
-                How's The Weather?
-              </span>
-              <div className="pt-8 text-center">
-                <a
-                  href="https://ncain24.github.io/hows-the-weather/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <button className="text-center rounded-full border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#7499f4] transition">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/NCain24/hows-the-weather"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <button className="text-center rounded-full border-2 border-black px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-[#8892b0]">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
