@@ -1,6 +1,5 @@
 import React from 'react';
 import familyImg from '../assets/family.jpg';
-import weatherImg from '../assets/weather.png';
 import musicImg from '../assets/musicapp.png';
 
 const Work = () => {
