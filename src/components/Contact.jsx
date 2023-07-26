@@ -16,18 +16,18 @@ const Contact = () => {
             id="page-title"
             className="text-4xl font-bold inline border-b-4 px-10 border-[#fdbf44]"
           >
-            Contact
+            Contact Me
           </p>
         </div>
         <div></div>
         <input
-          className="bg-[#dad9d9] p-2 mb-4 rounded"
+          className="bg-[#dad9d9] p-2 mb-4 rounded shadow-lg"
           type="text"
           placeholder="Name"
           name="name"
         />
         <textarea
-          className="bg-[#dad9d9] p-2 rounded resize-none"
+          className="bg-[#dad9d9] p-2 rounded resize-none shadow-lg"
           name="message"
           id=""
           rows="6"

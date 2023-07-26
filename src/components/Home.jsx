@@ -7,7 +7,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 const Home = () => {
   return (
     <div>
-      <div name="home" className="w-full h-screen  bg-[#fcfcfc]">
+      <div name="home" className="w-full h-full bg-[#fcfcfc]">
         {/* container */}
         <div className="max-w-[1000px] mx-auto flex flex-col justify-center h-screen">
           <h1 className="text-4xl pb-6 sm:text-7xl font-bold text-center text-[#fdbf44]">
@@ -17,14 +17,14 @@ const Home = () => {
             Full Stack Web Developer.
           </h2>
           <div className="flex justify-center">
-            <ul className="flex pt-6 gap-10">
+            <ul className="flex pt-6 gap-1 sm:gap-10">
               <li className="rounded-full shadow-lg p-6 shadow-gray-700 cursor-pointer hover:scale-110 ease-in duration-300">
                 <a
                   href="https://www.linkedin.com/in/noahcaindev/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <RiLinkedinFill className=" " size={40} />
+                  <RiLinkedinFill size={40} />
                 </a>
               </li>
               <li className="rounded-full shadow-lg p-6 shadow-gray-700 cursor-pointer hover:scale-110 ease-in duration-300">

@@ -16,9 +16,8 @@ const About = () => {
               About
             </p>
           </div>
-          <div></div>
         </div>
-        <div className="max-w-[1000px] text-xs sm:text-sm w-full h-full grid gap-8 px-4 text-center">
+        <div className="max-w-[1000px] max-h-[300px] sm:h-screen border shadow-lg border-[#fdbf44] rounded-xl text-md sm:text-lg w-full grid gap-8 px-4 text-center overflow-scroll no-scrollbar">
           <div>
             <p>
               Hello there! I'm thrilled to share my unique journey into the
