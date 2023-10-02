@@ -1,6 +1,8 @@
 import React from 'react';
 import familyImg from '../assets/family.jpg';
 import musicImg from '../assets/musicapp.png';
+import blogImg from '../assets/blog.png';
+import lirnImg from '../assets/lirn.png';
 
 const Work = () => {
   return (
@@ -15,6 +17,74 @@ const Work = () => {
           </p>
         </div>
         <div className="grid sm:grid-cols-2 gap-4 pb-4 ">
+          <div
+            style={{
+              backgroundImage: `url(${lirnImg})`,
+              backgroundSize: '300px',
+            }}
+            className="shadow-2xl max-h-[180px] sm:max-h-[100%] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="">
+              <span
+                id="page-title"
+                className="text-xl flex justify-center sm:text-3xl rounded-full font-bold px-6 bg-black/70 text-white tracking-wide py-6"
+              >
+                Media App
+              </span>
+              <div className="pt-2 text-center">
+                <a href=" " target="_blank" rel="noreferrer noopener">
+                  <button
+                    onClick={alert('Coming Soon!')}
+                    className="text-center rounded-full px-4 py-3 m-2 bg-black/70 text-white font-bold text-3xl hover:text-neutral-900 hover:bg-neutral-300 transition"
+                  >
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/NCain24/LIRN"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <button className="text-center rounded-full px-4 py-3 m-2 bg-black/70 text-white font-bold text-3xl hover:text-neutral-900 hover:bg-neutral-300 transition">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${blogImg})` }}
+            className="shadow-2xl max-h-[180px] sm:max-h-[100%] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="">
+              <span
+                id="page-title"
+                className="text-xl flex justify-center sm:text-3xl rounded-full font-bold px-6 bg-black/70 text-white tracking-wide py-6"
+              >
+                Blog Gen
+              </span>
+              <div className="pt-2 text-center">
+                <a
+                  href="https://blog-gen-ncain24.vercel.app"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <button className="text-center rounded-full px-4 py-3 m-2 bg-black/70 text-white font-bold text-3xl hover:text-neutral-900 hover:bg-neutral-300 transition">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/NCain24/Blog-Gen"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <button className="text-center rounded-full px-4 py-3 m-2 bg-black/70 text-white font-bold text-3xl hover:text-neutral-900 hover:bg-neutral-300 transition">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div
             style={{ backgroundImage: `url(${musicImg})` }}
             className="shadow-2xl group container max-h-[180px] sm:max-h-[100%] rounded-md flex justify-center items-center mx-auto content-div"
