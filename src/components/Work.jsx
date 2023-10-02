@@ -32,14 +32,11 @@ const Work = () => {
                 Media App
               </span>
               <div className="pt-2 text-center">
-                <a href=" " target="_blank" rel="noreferrer noopener">
-                  <button
-                    onClick={alert('Coming Soon!')}
-                    className="text-center rounded-full px-4 py-3 m-2 bg-black/70 text-white font-bold text-3xl hover:text-neutral-900 hover:bg-neutral-300 transition"
-                  >
+                {/* <a href=" " target="_blank" rel="noreferrer noopener">
+                  <button className="text-center rounded-full px-4 py-3 m-2 bg-black/70 text-black font-bold text-3xl hover:text-neutral-900 hover:bg-neutral-300 transition">
                     Demo
                   </button>
-                </a>
+                </a> */}
                 <a
                   href="https://github.com/NCain24/LIRN"
                   target="_blank"
